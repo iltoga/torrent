@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/anacrolix/missinggo/pubsub"
-	"github.com/iltoga/torrent/metainfo"
-	pp "github.com/iltoga/torrent/peer_protocol"
-	"github.com/iltoga/torrent/storage"
+	"github.com/anacrolix/torrent/metainfo"
+	pp "github.com/anacrolix/torrent/peer_protocol"
+	"github.com/anacrolix/torrent/storage"
 	"github.com/bradfitz/iter"
 	"github.com/stretchr/testify/require"
 )

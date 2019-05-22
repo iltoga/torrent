@@ -23,11 +23,11 @@ import (
 	"github.com/anacrolix/missinggo/prioritybitmap"
 	"github.com/anacrolix/missinggo/pubsub"
 	"github.com/anacrolix/missinggo/slices"
-	"github.com/iltoga/torrent/bencode"
-	"github.com/iltoga/torrent/metainfo"
-	pp "github.com/iltoga/torrent/peer_protocol"
-	"github.com/iltoga/torrent/storage"
-	"github.com/iltoga/torrent/tracker"
+	"github.com/anacrolix/torrent/bencode"
+	"github.com/anacrolix/torrent/metainfo"
+	pp "github.com/anacrolix/torrent/peer_protocol"
+	"github.com/anacrolix/torrent/storage"
+	"github.com/anacrolix/torrent/tracker"
 	"github.com/davecgh/go-spew/spew"
 )
 
@@ -178,7 +178,7 @@ func (t *Torrent) KnownSwarm() (ks []Peer) {
 			// > what's appropriate. We can carry forward the SupportsEncryption value as we
 			// > received it from trackers/DHT/PEX, or just use the encryption state for the
 			// > connection. It's probably easiest to do the latter for now.
-			// https://github.com/iltoga/torrent/pull/188
+			// https://github.com/anacrolix/torrent/pull/188
 			SupportsEncryption: conn.headerEncrypted,
 		})
 	}

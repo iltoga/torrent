@@ -3,7 +3,7 @@ package storage
 import (
 	"io"
 
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 // Represents data storage for an unspecified torrent.

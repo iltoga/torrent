@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/iltoga/torrent/bencode"
+	"github.com/anacrolix/torrent/bencode"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

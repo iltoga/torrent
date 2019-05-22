@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/iltoga/torrent/metainfo"
-	"github.com/iltoga/torrent/storage"
+	"github.com/anacrolix/torrent/metainfo"
+	"github.com/anacrolix/torrent/storage"
 )
 
 type badStorage struct{}

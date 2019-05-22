@@ -3,7 +3,7 @@ package storage
 import (
 	"log"
 
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 type PieceCompletionGetSetter interface {

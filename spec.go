@@ -1,8 +1,8 @@
 package torrent
 
 import (
-	"github.com/iltoga/torrent/metainfo"
-	"github.com/iltoga/torrent/storage"
+	"github.com/anacrolix/torrent/metainfo"
+	"github.com/anacrolix/torrent/storage"
 )
 
 // Specifies a new torrent for adding to a client. There are helpers for

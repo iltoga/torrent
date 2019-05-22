@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/anacrolix/tagflag"
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 func main() {

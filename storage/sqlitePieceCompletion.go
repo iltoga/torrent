@@ -3,13 +3,13 @@
 package storage
 
 //
-// iltoga: commented this out to be able to use anacrolix torrent as library in projects that use sqlite3
+// anacrolix: commented this out to be able to use anacrolix torrent as library in projects that use sqlite3
 //
 // import (
 // 	"database/sql"
 // 	"path/filepath"
 
-// 	"github.com/iltoga/torrent/metainfo"
+// 	"github.com/anacrolix/torrent/metainfo"
 // 	_ "github.com/mattn/go-sqlite3"
 // )
 

@@ -13,7 +13,7 @@ import (
 
 	"github.com/anacrolix/dht/krpc"
 	"github.com/anacrolix/missinggo/httptoo"
-	"github.com/iltoga/torrent/bencode"
+	"github.com/anacrolix/torrent/bencode"
 )
 
 type httpResponse struct {

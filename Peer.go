@@ -4,7 +4,7 @@ import (
 	"net"
 
 	"github.com/anacrolix/dht/krpc"
-	"github.com/iltoga/torrent/peer_protocol"
+	"github.com/anacrolix/torrent/peer_protocol"
 )
 
 type Peer struct {

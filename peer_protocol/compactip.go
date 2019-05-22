@@ -3,7 +3,7 @@ package peer_protocol
 import (
 	"net"
 
-	"github.com/iltoga/torrent/bencode"
+	"github.com/anacrolix/torrent/bencode"
 )
 
 // Marshals to the smallest compact byte representation.

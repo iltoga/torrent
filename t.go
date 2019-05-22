@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/anacrolix/missinggo/pubsub"
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 // The torrent's infohash. This is fixed and cannot change. It uniquely

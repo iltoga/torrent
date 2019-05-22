@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	pp "github.com/iltoga/torrent/peer_protocol"
+	pp "github.com/anacrolix/torrent/peer_protocol"
 )
 
 // Various connection-level metrics. At the Torrent level these are

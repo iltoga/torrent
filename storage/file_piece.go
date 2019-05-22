@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 type filePieceImpl struct {

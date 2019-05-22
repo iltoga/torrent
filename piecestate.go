@@ -1,7 +1,7 @@
 package torrent
 
 import (
-	"github.com/iltoga/torrent/storage"
+	"github.com/anacrolix/torrent/storage"
 )
 
 // The current state of a piece.

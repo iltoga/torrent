@@ -3,7 +3,7 @@ package torrent
 import (
 	"strings"
 
-	"github.com/iltoga/torrent/metainfo"
+	"github.com/anacrolix/torrent/metainfo"
 )
 
 // Provides access to regions of torrent data that correspond to its files.
