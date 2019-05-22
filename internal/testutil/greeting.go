@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/iltoga/torrent/metainfo"
 )
 
 var Greeting = Torrent{

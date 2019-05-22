@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/anacrolix/tagflag"
-	"github.com/anacrolix/torrent"
-	"github.com/anacrolix/torrent/metainfo"
-	"github.com/anacrolix/torrent/tracker"
+	"github.com/iltoga/torrent"
+	"github.com/iltoga/torrent/metainfo"
+	"github.com/iltoga/torrent/tracker"
 	"github.com/davecgh/go-spew/spew"
 )
 

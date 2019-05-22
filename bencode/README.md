@@ -3,7 +3,7 @@ Bencode encoding/decoding sub package. Uses similar API design to Go's json pack
 ## Install
 
 ```sh
-go get github.com/anacrolix/torrent
+go get github.com/iltoga/torrent
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ go get github.com/anacrolix/torrent
 package demo
 
 import (
-	bencode "github.com/anacrolix/torrent/bencode"
+	bencode "github.com/iltoga/torrent/bencode"
 )
 
 type Message struct {

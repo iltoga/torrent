@@ -16,11 +16,11 @@ import (
 	_ "github.com/anacrolix/envpprof"
 	"github.com/anacrolix/missinggo"
 	"github.com/anacrolix/missinggo/filecache"
-	"github.com/anacrolix/torrent/bencode"
-	"github.com/anacrolix/torrent/internal/testutil"
-	"github.com/anacrolix/torrent/iplist"
-	"github.com/anacrolix/torrent/metainfo"
-	"github.com/anacrolix/torrent/storage"
+	"github.com/iltoga/torrent/bencode"
+	"github.com/iltoga/torrent/internal/testutil"
+	"github.com/iltoga/torrent/iplist"
+	"github.com/iltoga/torrent/metainfo"
+	"github.com/iltoga/torrent/storage"
 	"github.com/bradfitz/iter"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -60,7 +60,7 @@ func TestBoltPieceCompletionClosedWhenClientClosed(t *testing.T) {
 	cl, err := NewClient(cfg)
 	require.NoError(t, err)
 	cl.Close()
-	// And again, https://github.com/anacrolix/torrent/issues/158
+	// And again, https://github.com/iltoga/torrent/issues/158
 	cl, err = NewClient(cfg)
 	require.NoError(t, err)
 	cl.Close()
@@ -964,7 +964,7 @@ func makeMagnet(t *testing.T, cl *Client, dir string, name string) string {
 	return magnet
 }
 
-// https://github.com/anacrolix/torrent/issues/114
+// https://github.com/iltoga/torrent/issues/114
 func TestMultipleTorrentsWithEncryption(t *testing.T) {
 	cfg := TestingConfig()
 	cfg.DisableUTP = true

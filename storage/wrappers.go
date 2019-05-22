@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/anacrolix/missinggo"
-	"github.com/anacrolix/torrent/metainfo"
+	"github.com/iltoga/torrent/metainfo"
 )
 
 type Client struct {

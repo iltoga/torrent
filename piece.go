@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	"github.com/anacrolix/missinggo/bitmap"
-	"github.com/anacrolix/torrent/metainfo"
-	pp "github.com/anacrolix/torrent/peer_protocol"
-	"github.com/anacrolix/torrent/storage"
+	"github.com/iltoga/torrent/metainfo"
+	pp "github.com/iltoga/torrent/peer_protocol"
+	"github.com/iltoga/torrent/storage"
 )
 
 // Describes the importance of obtaining a particular piece.

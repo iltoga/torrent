@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/anacrolix/missinggo"
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/iltoga/torrent/bencode"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -128,7 +128,7 @@ func TestMetainfoWithStringURLList(t *testing.T) {
 	assert.Len(t, mi.UrlList, 1)
 }
 
-// https://github.com/anacrolix/torrent/issues/247
+// https://github.com/iltoga/torrent/issues/247
 //
 // The decoder buffer wasn't cleared before starting the next dict item after
 // a syntax error on a field with the ignore_unmarshal_type_error tag.

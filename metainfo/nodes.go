@@ -5,7 +5,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/iltoga/torrent/bencode"
 )
 
 type Node string

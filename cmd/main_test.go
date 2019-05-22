@@ -17,10 +17,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anacrolix/torrent"
-	"github.com/anacrolix/torrent/bencode"
-	"github.com/anacrolix/torrent/metainfo"
-	"github.com/anacrolix/torrent/tracker"
+	"github.com/iltoga/torrent"
+	"github.com/iltoga/torrent/bencode"
+	"github.com/iltoga/torrent/metainfo"
+	"github.com/iltoga/torrent/tracker"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dustin/go-humanize"
 )

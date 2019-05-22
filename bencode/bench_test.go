@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/anacrolix/dht/v2/krpc"
-	"github.com/anacrolix/torrent/bencode"
+	"github.com/iltoga/torrent/bencode"
 	"github.com/bradfitz/iter"
 )
 

@@ -9,7 +9,7 @@ package storage
 // 	"database/sql"
 // 	"path/filepath"
 
-// 	"github.com/anacrolix/torrent/metainfo"
+// 	"github.com/iltoga/torrent/metainfo"
 // 	_ "github.com/mattn/go-sqlite3"
 // )
 

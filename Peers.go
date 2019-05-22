@@ -2,8 +2,8 @@ package torrent
 
 import (
 	"github.com/anacrolix/dht/krpc"
-	"github.com/anacrolix/torrent/peer_protocol"
-	"github.com/anacrolix/torrent/tracker"
+	"github.com/iltoga/torrent/peer_protocol"
+	"github.com/iltoga/torrent/tracker"
 )
 
 type Peers []Peer
